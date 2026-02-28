@@ -1,0 +1,6 @@
+* @kiwibit/security-admins
+
+/app/api/ @kiwibit/security-admins @kiwibit/backend
+/prisma/ @kiwibit/backend
+/.github/workflows/ @kiwibit/security-admins @kiwibit/devops
+/components/ @kiwibit/frontend

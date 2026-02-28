@@ -1,0 +1,54 @@
+name: Smoke
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - release
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres?schema=public
+      DB_STRICT: "true"
+      SESSION_SECRET: smoke-secret
+      NEXT_PUBLIC_SITE_URL: http://localhost:3000
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run prisma:generate
+      - run: npx prisma migrate deploy
+      - run: npm run prisma:seed
+      - run: npm run build
+      - run: npm run start &
+      - run: |
+          for i in {1..40}; do
+            if curl -fsS http://localhost:3000/api/health >/dev/null; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Server did not become ready in time" && exit 1
+      - run: npm run warmup:critical
+      - run: npm run test:smoke

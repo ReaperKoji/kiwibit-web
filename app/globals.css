@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-bg: #020202;
+  --surface-header: rgba(2, 2, 2, 0.82);
+  --surface-card: rgba(255, 255, 255, 0.05);
+  --surface-border: rgba(255, 255, 255, 0.12);
+  --text-main: #ffffff;
+  --text-soft: rgba(255, 255, 255, 0.82);
+  --text-muted: rgba(255, 255, 255, 0.72);
+}
+
+@layer base {
+  body {
+    @apply text-white selection:bg-white selection:text-black overflow-x-hidden;
+    background-color: var(--surface-bg);
+  }
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.4);
+  color: transparent;
+}
+
+.architectural-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.matrix-grid-texture {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.flame-glow {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.2));
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.v-pillar {
+  @apply border-l border-white/10 transition-all duration-700 hover:border-white/40;
+}
+
+.micro-indicator {
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(to bottom, #fff, transparent);
+  animation: move-down 3s linear infinite;
+}
+
+@keyframes move-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(400%);
+    opacity: 0;
+  }
+}
+
+.parallax-target {
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  position: relative;
+  overflow: hidden;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  animation: line-sweep 6s infinite;
+}
+
+@keyframes line-sweep {
+  0% {
+    left: -100%;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.carousel-track {
+  display: flex;
+  width: 200%;
+  cursor: pointer;
+}
+
+.carousel-card {
+  width: calc(100% / 6 - 24px);
+  margin: 0 12px;
+  flex-shrink: 0;
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.carousel-card {
+}
+
+/* Animated glitch background with digital particles */
+.glitch-bg {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.glitch-particles {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, #00ffff, transparent),
+    radial-gradient(2px 2px at 60% 70%, #ff00ff, transparent),
+    radial-gradient(1px 1px at 50% 50%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 80% 10%, #00ffff, transparent),
+    radial-gradient(2px 2px at 90% 60%, #ff00ff, transparent),
+    radial-gradient(1px 1px at 30% 80%, rgba(255, 255, 255, 0.7), transparent);
+    background-repeat: repeat;
+    background-size: 400% 400%;
+    animation: glitch-shift 3s ease-in-out infinite;
+    opacity: 0.28;
+    filter: blur(0.6px);
+    mix-blend-mode: screen;
+  filter: blur(0.6px);
+  mix-blend-mode: screen;
+}
+
+@keyframes glitch-shift {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.glitch-lines {
+  position: absolute;
+  inset: 0;
+  animation: glitch-lines-move 4s linear infinite;
+}
+
+.glitch-lines::before,
+.glitch-lines::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, transparent);
+  opacity: 0.45;
+}
+
+.glitch-lines::before {
+  top: 20%;
+  animation: glitch-line-pulse 2s ease-in-out infinite;
+}
+
+.glitch-lines::after {
+  bottom: 50%;
+  animation: glitch-line-pulse 2.5s ease-in-out infinite reverse;
+}
+
+@keyframes glitch-lines-move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+@keyframes glitch-line-pulse {
+  0%, 100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scaleX(1);
+  }
+}
+}

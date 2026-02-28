@@ -1,0 +1,174 @@
+{
+  "members": [
+    {
+      "id": "gustavo-costa",
+      "name": "QA Member 1772192207400",
+      "role": "Lead Security Researcher",
+      "bio": "QA automated member biography with enough characters to pass schema checks in this test scenario.",
+      "avatar_url": "/uploads/members/admin/1772192212978-kiwi.webp",
+      "specialties": [
+        "TypeScript",
+        "Next.js",
+        "Security"
+      ],
+      "highlights": [
+        "Led 30+ web security audits",
+        "Reduced critical findings by 45%",
+        "Built internal offensive tooling"
+      ],
+      "account_email": "qa-member-1772192207400@kiwibit.com",
+      "access_role": "member",
+      "is_active": false,
+      "created_at": "2026-02-27T11:32:55.259Z",
+      "deleted_at": "2026-02-27T11:36:54.155Z"
+    },
+    {
+      "id": "pedro-galvao",
+      "name": "Pedro Galvao",
+      "role": "Systems Analysis",
+      "bio": "Systems Analysis and Development student with emphasis on secure coding, network fundamentals, and incident response.",
+      "avatar_url": "https://avatars.githubusercontent.com/ReaperKoji?size=400",
+      "specialties": [
+        "TypeScript",
+        "Node.js",
+        "Wireshark",
+        "Nmap",
+        "Splunk"
+      ],
+      "github_url": "https://github.com/ReaperKoji",
+      "linkedin_url": "",
+      "highlights": [
+        "Implemented secure coding checklist",
+        "Documented incident playbooks",
+        "Improved triage response times"
+      ],
+      "account_email": "pedro-galvao@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    },
+    {
+      "id": "marcio-souza",
+      "name": "Marcio Souza",
+      "role": "Database Administrator",
+      "bio": "Focused on data integrity, SQL performance tuning, backup strategies, and secure access governance for business-critical systems.",
+      "avatar_url": "https://avatars.githubusercontent.com/Porisso90?size=400",
+      "specialties": [
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Docker",
+        "Bash"
+      ],
+      "github_url": "https://github.com/Porisso90",
+      "linkedin_url": "",
+      "highlights": [
+        "Cut query latency by 60%",
+        "Designed HA backup strategy",
+        "Hardened access control policies"
+      ],
+      "account_email": "marcio-souza@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    },
+    {
+      "id": "pedro-souza",
+      "name": "Pedro Souza",
+      "role": "Multiplatform Developer",
+      "bio": "Builds cross-platform applications with clean architecture, API integration, and consistent UX from web to mobile.",
+      "avatar_url": "https://avatars.githubusercontent.com/Pedryn?size=400",
+      "specialties": [
+        "React",
+        "Next.js",
+        "React Native",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "github_url": "https://github.com/Pedryn",
+      "linkedin_url": "",
+      "highlights": [
+        "Shipped multiplatform MVPs",
+        "Unified web/mobile design system",
+        "Raised release cadence"
+      ],
+      "account_email": "pedro-souza@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    },
+    {
+      "id": "thiago-maia",
+      "name": "Thiago Maia",
+      "role": "Computer Science",
+      "bio": "Computer science student with strong base in algorithms, operating systems, and secure software engineering.",
+      "avatar_url": "https://avatars.githubusercontent.com/TMaia09?size=400",
+      "specialties": [
+        "Python",
+        "Go",
+        "C",
+        "Linux",
+        "GitHub Actions"
+      ],
+      "github_url": "https://github.com/TMaia09",
+      "linkedin_url": "",
+      "highlights": [
+        "Optimized backend pipelines",
+        "Improved CI reliability",
+        "Built internal tooling prototypes"
+      ],
+      "account_email": "thiago-maia@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    },
+    {
+      "id": "henrique",
+      "name": "Henrique",
+      "role": "Postgraduate in Cyber Security",
+      "bio": "Dedicated to blue-team operations, SIEM pipelines, and practical defense strategies for enterprise threat surfaces.",
+      "avatar_url": "https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=400&h=400&auto=format&fit=crop",
+      "specialties": [
+        "Elastic",
+        "Sigma Rules",
+        "YARA",
+        "Python",
+        "Wazuh"
+      ],
+      "linkedin_url": "",
+      "highlights": [
+        "Deployed SOC alerts at scale",
+        "Lowered MTTR across incidents",
+        "Created detection rule library"
+      ],
+      "account_email": "henrique@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    },
+    {
+      "id": "italo-bianchi",
+      "name": "Italo Bianchi",
+      "role": "Mechatronics",
+      "bio": "Mechatronics student working at the intersection of embedded systems, automation, and IoT security best practices.",
+      "avatar_url": "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=400&h=400&auto=format&fit=crop",
+      "specialties": [
+        "C",
+        "Arduino",
+        "ESP32",
+        "MQTT",
+        "Node-RED"
+      ],
+      "linkedin_url": "",
+      "highlights": [
+        "Built secure IoT prototypes",
+        "Improved firmware resilience",
+        "Automated device monitoring"
+      ],
+      "account_email": "italo-bianchi@kiwibit.com",
+      "access_role": "member",
+      "is_active": true,
+      "created_at": "2026-02-27T11:32:55.259Z"
+    }
+  ]
+}

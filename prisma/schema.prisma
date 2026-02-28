@@ -1,0 +1,183 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  member
+  editor
+  member_manager
+  admin
+}
+
+enum PostStatus {
+  draft
+  in_review
+  published
+  scheduled
+}
+
+enum CommentStatus {
+  pending
+  approved
+  rejected
+}
+
+enum NewsletterStatus {
+  pending
+  confirmed
+}
+
+enum ModerationStatus {
+  draft
+  pending_review
+  published
+}
+
+model Member {
+  id            String         @id
+  codename      String
+  realName      String
+  speciality    String
+  bio           String
+  clearance     String
+  avatar        String
+  contactEmail  String
+  stack         String[]
+  achievements  String[]
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  account       MemberAccount?
+  profileState  MemberProfileState?
+  posts         BlogPost[]
+}
+
+model MemberProfileState {
+  id               String           @id @default(cuid())
+  memberId         String           @unique
+  draft            Json
+  published        Json
+  versions         Json
+  moderationStatus ModerationStatus @default(published)
+  pendingAt        DateTime?
+  updatedAt        DateTime         @updatedAt
+  member           Member           @relation(fields: [memberId], references: [id], onDelete: Cascade)
+}
+
+model MemberAccount {
+  id                   String    @id @default(cuid())
+  memberId             String    @unique
+  email                String    @unique
+  password             String
+  role                 UserRole  @default(member)
+  isActive             Boolean   @default(true)
+  passwordResetToken   String?
+  passwordResetExpires DateTime?
+  passwordChangedAt    DateTime?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  member               Member    @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  sessions             Session[]
+}
+
+model Session {
+  id          String    @id @default(cuid())
+  accountId   String
+  tokenHash   String    @unique
+  expiresAt   DateTime
+  createdAt   DateTime  @default(now())
+  account     MemberAccount @relation(fields: [accountId], references: [id], onDelete: Cascade)
+}
+
+model BlogPost {
+  id              String      @id @default(cuid())
+  slug            String      @unique
+  title           String
+  excerpt         String
+  coverImage      String
+  authorId        String
+  tags            String[]
+  categories      String[]
+  status          PostStatus  @default(draft)
+  featured        Boolean     @default(false)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  publishedAt     DateTime?
+  scheduledFor    DateTime?
+  draftContent    String
+  publishedContent String?
+  author          Member      @relation(fields: [authorId], references: [id], onDelete: Restrict)
+  comments        BlogComment[]
+  embedding       BlogEmbedding?
+}
+
+model BlogEmbedding {
+  id         String   @id @default(cuid())
+  postId     String   @unique
+  model      String
+  dimensions Int
+  vector     Unsupported("vector")
+  updatedAt  DateTime @updatedAt
+  post       BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+}
+
+model BlogComment {
+  id         String        @id @default(cuid())
+  postId     String
+  name       String
+  email      String
+  message    String
+  status     CommentStatus @default(pending)
+  ip         String
+  createdAt  DateTime      @default(now())
+  post       BlogPost      @relation(fields: [postId], references: [id], onDelete: Cascade)
+}
+
+model NewsletterSubscriber {
+  id          String           @id @default(cuid())
+  email       String           @unique
+  token       String           @unique
+  status      NewsletterStatus @default(pending)
+  createdAt   DateTime         @default(now())
+  confirmedAt DateTime?
+}
+
+model ContactLead {
+  id         String   @id @default(cuid())
+  memberId   String
+  name       String
+  email      String
+  message    String
+  createdAt  DateTime @default(now())
+}
+
+model AuditEvent {
+  id            String   @id @default(cuid())
+  at            DateTime @default(now())
+  actorMemberId String
+  actorRole     String
+  targetMemberId String
+  action        String
+  ip            String
+  userAgent     String
+  meta          Json?
+}
+
+model AnalyticsDaily {
+  id               String   @id @default(cuid())
+  day              DateTime @unique
+  events           Int      @default(0)
+  uniqueVisitors   Int      @default(0)
+  postReads        Int      @default(0)
+  ctaClicks        Int      @default(0)
+  shares           Int      @default(0)
+  newsletterStarts Int      @default(0)
+  newsletterConfirms Int    @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}

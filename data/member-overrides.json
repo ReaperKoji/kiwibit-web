@@ -1,0 +1,1153 @@
+{
+  "members": {
+    "pedro-galvao": {
+      "draft": {
+        "realName": "Pedro Galvao",
+        "speciality": "Systems Analysis",
+        "bio": "Systems Analysis and Development student with emphasis on secure coding, network fundamentals, and incident response.",
+        "clearance": "L-04",
+        "avatar": "https://avatars.githubusercontent.com/ReaperKoji?size=400",
+        "contactEmail": "pedro.galvao@kiwibit.com",
+        "stack": [
+          "Façonada"
+        ],
+        "achievements": [
+          "Implemented secure coding checklist",
+          "Documented incident playbooks",
+          "Improved triage response times"
+        ],
+        "skills": [
+          {
+            "name": "Threat Modeling",
+            "category": "technical"
+          },
+          {
+            "name": "SOC Analysis",
+            "category": "technical"
+          },
+          {
+            "name": "OWASP Top 10",
+            "category": "technical"
+          }
+        ],
+        "projects": [
+          {
+            "title": "Monitoring Platform Build",
+            "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+            "href": "https://github.com/"
+          },
+          {
+            "title": "Monitoring Security Operations",
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+            "href": "https://owasp.org/"
+          },
+          {
+            "title": "Monitoring Product Hardening",
+            "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+            "href": "https://nvd.nist.gov/"
+          }
+        ]
+      },
+      "published": {
+        "avatar": "https://avatars.githubusercontent.com/ReaperKoji?size=400"
+      },
+      "versions": [
+        {
+          "id": "1771949449138-43wvgu",
+          "createdAt": "2026-02-24T16:10:49.138Z",
+          "snapshot": {
+            "realName": "Pedro Galvao",
+            "speciality": "Systems Analysis",
+            "bio": "Systems Analysis and Development student with emphasis on secure coding, network fundamentals, and incident response.",
+            "clearance": "L-04",
+            "avatar": "https://avatars.githubusercontent.com/ReaperKoji?size=400",
+            "contactEmail": "pedro.galvao@kiwibit.com",
+            "stack": [
+              "Façonada"
+            ],
+            "achievements": [
+              "Implemented secure coding checklist",
+              "Documented incident playbooks",
+              "Improved triage response times"
+            ],
+            "skills": [
+              {
+                "name": "Threat Modeling",
+                "category": "technical"
+              },
+              {
+                "name": "SOC Analysis",
+                "category": "technical"
+              },
+              {
+                "name": "OWASP Top 10",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Monitoring Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Monitoring Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Monitoring Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1771938107806-caioso",
+          "createdAt": "2026-02-24T13:01:47.806Z",
+          "snapshot": {
+            "realName": "Pedro Galvao",
+            "speciality": "Systems Analysis",
+            "bio": "Systems Analysis and Development student with emphasis on secure coding, network fundamentals, and incident response.",
+            "clearance": "L-04",
+            "avatar": "https://avatars.githubusercontent.com/ReaperKoji?size=400",
+            "contactEmail": "pedro.galvao@kiwibit.com",
+            "stack": [
+              "TypeScript",
+              "Node.js",
+              "Wireshark",
+              "Nmap",
+              "Splunk"
+            ],
+            "achievements": [
+              "Implemented secure coding checklist",
+              "Documented incident playbooks",
+              "Improved triage response times"
+            ],
+            "skills": [
+              {
+                "name": "Threat Modeling",
+                "category": "technical"
+              },
+              {
+                "name": "SOC Analysis",
+                "category": "technical"
+              },
+              {
+                "name": "OWASP Top 10",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Monitoring Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Monitoring Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Monitoring Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        }
+      ],
+      "moderationStatus": "pending_review",
+      "pendingAt": "2026-02-24T16:11:04.552Z"
+    },
+    "gustavo-costa": {
+      "draft": {
+        "realName": "Gustavo Costa",
+        "speciality": "Cyber Security Specialist",
+        "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+        "clearance": "L-05",
+        "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+        "contactEmail": "gustavo@kiwibit.com",
+        "stack": [
+          "C/C++",
+          "Python",
+          "Linux",
+          "Burp Suite",
+          "Ghidra"
+        ],
+        "achievements": [
+          "Led 30+ web security audits",
+          "Reduced critical findings by 45%",
+          "Built internal offensive tooling"
+        ],
+        "skills": [
+          {
+            "name": "Kernel Exploitation",
+            "category": "technical"
+          },
+          {
+            "name": "C/C++",
+            "category": "technical"
+          },
+          {
+            "name": "x64 Assembly",
+            "category": "technical"
+          }
+        ],
+        "projects": [
+          {
+            "title": "Offensive Platform Build",
+            "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+            "href": "https://github.com/"
+          },
+          {
+            "title": "Offensive Security Operations",
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+            "href": "https://owasp.org/"
+          },
+          {
+            "title": "Offensive Product Hardening",
+            "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+            "href": "https://nvd.nist.gov/"
+          }
+        ]
+      },
+      "published": {
+        "realName": "Gustavo Costa",
+        "speciality": "Cyber Security Specialist",
+        "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+        "clearance": "L-05",
+        "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+        "contactEmail": "gustavo@kiwibit.com",
+        "stack": [
+          "C/C++",
+          "Python",
+          "Linux",
+          "Burp Suite",
+          "Ghidra"
+        ],
+        "achievements": [
+          "Led 30+ web security audits",
+          "Reduced critical findings by 45%",
+          "Built internal offensive tooling"
+        ],
+        "skills": [
+          {
+            "name": "Kernel Exploitation",
+            "category": "technical"
+          },
+          {
+            "name": "C/C++",
+            "category": "technical"
+          },
+          {
+            "name": "x64 Assembly",
+            "category": "technical"
+          }
+        ],
+        "projects": [
+          {
+            "title": "Offensive Platform Build",
+            "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+            "href": "https://github.com/"
+          },
+          {
+            "title": "Offensive Security Operations",
+            "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+            "href": "https://owasp.org/"
+          },
+          {
+            "title": "Offensive Product Hardening",
+            "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+            "href": "https://nvd.nist.gov/"
+          }
+        ]
+      },
+      "versions": [
+        {
+          "id": "1772151472810-gx3tng",
+          "createdAt": "2026-02-27T00:17:52.810Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772151472002-iru5wc",
+          "createdAt": "2026-02-27T00:17:52.002Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772151395367-r748da",
+          "createdAt": "2026-02-27T00:16:35.367Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio before publish action. Validation for submit flow.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772151394281-ry0c79",
+          "createdAt": "2026-02-27T00:16:34.281Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio before publish action. Validation for submit flow.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772151378664-r44gmg",
+          "createdAt": "2026-02-27T00:16:18.664Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127655088-k2hxm6",
+          "createdAt": "2026-02-26T17:40:55.088Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127604029-bcb11c",
+          "createdAt": "2026-02-26T17:40:04.029Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio before publish action. Validation for submit flow.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127588870-p128jo",
+          "createdAt": "2026-02-26T17:39:48.870Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127495169-6lvlem",
+          "createdAt": "2026-02-26T17:38:15.169Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127494973-eojvg5",
+          "createdAt": "2026-02-26T17:38:14.973Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127425195-yrac1b",
+          "createdAt": "2026-02-26T17:37:05.196Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127424943-rpckbo",
+          "createdAt": "2026-02-26T17:37:04.943Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127312725-rr8agx",
+          "createdAt": "2026-02-26T17:35:12.725Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127185283-c4tujy",
+          "createdAt": "2026-02-26T17:33:05.283Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127039233-013v3j",
+          "createdAt": "2026-02-26T17:30:39.233Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "1772127039096-npii6l",
+          "createdAt": "2026-02-26T17:30:39.096Z",
+          "snapshot": {
+            "realName": "Gustavo Costa",
+            "speciality": "Cyber Security Specialist",
+            "bio": "Updated bio from automated test. This should be enough characters for validation checks.",
+            "clearance": "L-05",
+            "avatar": "https://avatars.githubusercontent.com/gustavorodr?size=400",
+            "contactEmail": "gustavo@kiwibit.com",
+            "stack": [
+              "C/C++",
+              "Python",
+              "Linux",
+              "Burp Suite",
+              "Ghidra"
+            ],
+            "achievements": [
+              "Led 30+ web security audits",
+              "Reduced critical findings by 45%",
+              "Built internal offensive tooling"
+            ],
+            "skills": [
+              {
+                "name": "Kernel Exploitation",
+                "category": "technical"
+              },
+              {
+                "name": "C/C++",
+                "category": "technical"
+              },
+              {
+                "name": "x64 Assembly",
+                "category": "technical"
+              }
+            ],
+            "projects": [
+              {
+                "title": "Offensive Platform Build",
+                "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=700&auto=format&fit=crop",
+                "href": "https://github.com/"
+              },
+              {
+                "title": "Offensive Security Operations",
+                "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=700&auto=format&fit=crop",
+                "href": "https://owasp.org/"
+              },
+              {
+                "title": "Offensive Product Hardening",
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=700&auto=format&fit=crop",
+                "href": "https://nvd.nist.gov/"
+              }
+            ]
+          }
+        }
+      ],
+      "moderationStatus": "draft"
+    }
+  }
+}

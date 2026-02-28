@@ -1,0 +1,4 @@
+ALTER TABLE "MemberAccount"
+ADD COLUMN IF NOT EXISTS "passwordResetToken" TEXT,
+ADD COLUMN IF NOT EXISTS "passwordResetExpires" TIMESTAMP(3),
+ADD COLUMN IF NOT EXISTS "passwordChangedAt" TIMESTAMP(3);
