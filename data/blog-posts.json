@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": "post-001",
+      "slug": "zero-trust-blueprint-2026",
+      "title": "Automated QA Post 1772187625596",
+      "excerpt": "Automated publish flow validation from Playwright.",
+      "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1400&auto=format&fit=crop",
+      "authorId": "gustavo-costa",
+      "tags": [
+        "zero-trust",
+        "security-architecture",
+        "hybrid-work"
+      ],
+      "categories": [
+        "Architecture"
+      ],
+      "status": "published",
+      "featured": true,
+      "createdAt": "2026-02-26T17:31:21.352Z",
+      "updatedAt": "2026-02-27T10:20:29.116Z",
+      "publishedAt": "2026-02-27T10:20:29.116Z",
+      "draftContent": "## Automated QA\n- Created by e2e test\n- Validates save and publish",
+      "publishedContent": "## Automated QA\n- Created by e2e test\n- Validates save and publish"
+    },
+    {
+      "id": "post-002",
+      "slug": "incident-response-playbook-lite",
+      "title": "Incident Response Playbook Lite for Small Security Teams",
+      "excerpt": "A pragmatic playbook for triage, containment, and post-incident learning in under 5 pages.",
+      "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop",
+      "authorId": "pedro-galvao",
+      "tags": [
+        "incident-response",
+        "soc",
+        "operations"
+      ],
+      "categories": [
+        "Operations"
+      ],
+      "status": "published",
+      "featured": false,
+      "createdAt": "2026-02-26T17:31:21.352Z",
+      "updatedAt": "2026-02-26T17:31:21.352Z",
+      "publishedAt": "2026-02-26T17:31:21.352Z",
+      "draftContent": "## Triage first\nCreate clear severity criteria and ownership matrix.\n\n## Containment\nContain quickly with reversible controls.\n\n## Postmortem\nCapture timeline, root causes, and preventive controls.",
+      "publishedContent": "## Triage first\nCreate clear severity criteria and ownership matrix.\n\n## Containment\nContain quickly with reversible controls.\n\n## Postmortem\nCapture timeline, root causes, and preventive controls."
+    },
+    {
+      "id": "post-003",
+      "slug": "api-hardening-checklist",
+      "title": "API Hardening Checklist for Production Teams",
+      "excerpt": "Minimal checklist that catches most critical API issues before deployment.",
+      "coverImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1400&auto=format&fit=crop",
+      "authorId": "marcio-souza",
+      "tags": [
+        "api-security",
+        "owasp",
+        "checklist"
+      ],
+      "categories": [
+        "Engineering"
+      ],
+      "status": "draft",
+      "featured": false,
+      "createdAt": "2026-02-26T17:31:21.352Z",
+      "updatedAt": "2026-02-26T17:31:21.352Z",
+      "draftContent": "## Core controls\n- AuthN and AuthZ separation\n- Input validation and output encoding\n- Rate limiting and abuse detection\n\n## Logging\nStructured logs with request correlation IDs."
+    }
+  ]
+}
