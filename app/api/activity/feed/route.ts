@@ -4,6 +4,8 @@ import { listDirectoryMembers } from '@/lib/member-directory-store'
 import { MEMBER_GITHUB_USERNAMES } from '@/data/member-github'
 import { createApiRequestContext, jsonApiError, logApiError, withRequestId } from '@/lib/api-monitor'
 
+export const dynamic = 'force-dynamic'
+
 type FeedItem = {
   type: 'post' | 'github'
   at: string
